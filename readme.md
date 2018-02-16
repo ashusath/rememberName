@@ -11,20 +11,14 @@ Go to aws.amazon.com
 
 Open IAM
 
-    Select Roles -> Create role
-
-    Select Lambda from AWS service -> Next
-
-    Select AWSLambdaBasicExecutionRole and AmazonDynamoDBFullAccess -> Next
-
-    Provide lambda_dyanamo name in role name (you can change to any unique name)
-
-    Create Role
+   * Select Roles -> Create role
+   * Select Lambda from AWS service -> Next
+   * Select AWSLambdaBasicExecutionRole and AmazonDynamoDBFullAccess -> Next
+   * Provide lambda_dyanamo name in role name (you can change to any unique name)
+   * Create Role
 
 Open Lambda in aws console
 
-  Open your lambda function
-
-  Change execution role to lambda_dyanamo
-
-  This will give dynamo DB execution permissions to lambda function
+  * Open your lambda function
+  * Change execution role to lambda_dyanamo
+  * This will give dynamo DB execution permissions to lambda function
